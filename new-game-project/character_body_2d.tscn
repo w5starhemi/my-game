@@ -63,7 +63,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"default",
-"speed": 5.0
+"speed": 6.64
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_f50pn"]
@@ -74,6 +74,8 @@ script = SubResource("GDScript_f50pn")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_lhvu3")
+autoplay = "default"
+frame_progress = 0.884407
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 5)
